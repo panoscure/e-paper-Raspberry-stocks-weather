@@ -56,18 +56,18 @@ source venv/bin/activate
 pip install requests Pillow RPi.GPIO spidev
 
 ### 3. Configure secrets
-# secrets.py
+secrets.py
 
-# Wi‑Fi credentials (for the Pi to connect to your network)
+Wi‑Fi credentials (for the Pi to connect to your network)
 SSID = "YourWiFiName"
 PASSWORD = "YourWiFiPassword"
 
-# OpenWeatherMap
+OpenWeatherMap
 OPENWEATHER_API_KEY = "your_openweather_api_key"
 COUNTRY = "DE"          # e.g., "US", "GB", "FR"
 CITY = "Berlin"         # city name (English)
 
-# Yahoo Finance API (apidojo)
+Yahoo Finance API (apidojo)
 YAHOO_API_KEY = "your_yahoo_api_key"
 
 
@@ -75,7 +75,7 @@ YAHOO_API_KEY = "your_yahoo_api_key"
 symbols = ["ALWN.AT", "EYDAP.AT", "ETE.AT", "AETF.AT", "PPC.AT", "4UBQ.DE"]
 
 ### 5. Run the display
-# Step 1: Create the service file
+### Step 1: Create the service file
 
 bash
 sudo nano /etc/systemd/system/epaper-display.service
@@ -101,7 +101,7 @@ Replace your_project_folder with your actual project path
 
 The Restart=always ensures your script restarts if it crashes
 
-# Step 2: Enable and start the service
+### Step 2: Enable and start the service
 
 bash
 sudo systemctl daemon-reload
@@ -110,8 +110,8 @@ sudo systemctl start epaper-display.service
 
 For enclosure you may use the following: https://www.thingiverse.com/thing:7327540
 
-## License
-## This project is for personal/educational use. API keys must be obtained from their respective providers and used according to their terms.
+### License
+### This project is for personal/educational use. API keys must be obtained from their respective providers and used according to their terms.
 
 
 ![gmail_images20260402_124350](https://github.com/user-attachments/assets/5c6eb609-2c08-4ef1-a4cb-939a1de1fcaf)
