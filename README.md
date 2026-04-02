@@ -75,12 +75,11 @@ YAHOO_API_KEY = "your_yahoo_api_key"
 symbols = ["ALWN.AT", "EYDAP.AT", "ETE.AT", "AETF.AT", "PPC.AT", "4UBQ.DE"]
 
 ### 5. Run the display
-** Step 1: Create the service file **
-
+**Step 1: Create the service file**
 bash
 sudo nano /etc/systemd/system/epaper-display.service
-** Step 2: Add the service configuration **
 
+**Step 2: Add the service configuration**
 ini
 [Unit]
 Description=E-Paper Weather and Stock Display
@@ -101,8 +100,7 @@ Replace your_project_folder with your actual project path
 
 The Restart=always ensures your script restarts if it crashes
 
-** Step 3: Enable and start the service **
-
+**Step 3: Enable and start the service**
 bash
 sudo systemctl daemon-reload
 sudo systemctl enable epaper-display.service
