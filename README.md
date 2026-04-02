@@ -112,6 +112,8 @@ License
 This project is for personal/educational use. API keys must be obtained from their respective providers and used according to their terms.
 
 
-<img width="612" height="454" alt="image" src="https://github.com/user-attachments/assets/238dc49f-cafa-472d-b20a-8ba3f27b5c7d" />
+![gmail_images20260402_124350](https://github.com/user-attachments/assets/5c6eb609-2c08-4ef1-a4cb-939a1de1fcaf)
+![gmail_images20260402_124231](https://github.com/user-attachments/assets/8a11072b-600c-4899-8966-c146ef0685cc)
+![gmail_images20260402_124204](https://github.com/user-attachments/assets/2416d575-225b-4683-823f-8f1f8d3e7c3c)
 
 
