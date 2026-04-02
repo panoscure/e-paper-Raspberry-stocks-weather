@@ -6,11 +6,11 @@ Data is retrieved every 15 minutes using free APIs.
 
 ## Features
 
-- Shows current weather (temperature, conditions) for a configurable city.
-- Shows live stock prices for up to 6 symbols.
-- Updates automatically every 15 minutes.
-- Low power – perfect for e‑Paper.
-- Runs on a Raspberry Pi Zero (or any Pi with GPIO).
+- Shows current weather (temperature, conditions) for a configurable city.<br/>
+- Shows live stock prices for up to 6 symbols.<br/>
+- Updates automatically every 15 minutes.<br/>
+- Low power – perfect for e‑Paper.<br/>
+- Runs on a Raspberry Pi Zero (or any Pi with GPIO).<br/>
 
 ## Hardware Required
 
@@ -23,7 +23,7 @@ Data is retrieved every 15 minutes using free APIs.
 
 ## Software & APIs
 
-This project uses two free APIs:
+This project uses two free APIs:<br/>
 
 | API | Purpose | Sign‑up link |
 | --- | --- | --- |
@@ -40,45 +40,45 @@ Flash **Raspberry Pi OS Lite** (or full) to the microSD card. Enable SSH and Wi�
 
 ### 2. Enable SPI interface
 
-The e‑Paper display uses SPI. Run:
+The e‑Paper display uses SPI. Run:<br/>
 
-bash
-sudo raspi-config
-→ Interface Options → SPI → Enable
+bash<br/>
+sudo raspi-config<br/>
+→ Interface Options → SPI → Enable<br/>
 
-sudo apt update
-sudo apt install python3-pip python3-venv git -y
-git clone <your-repo-url>   # or copy files manually
-cd <project-directory>
+sudo apt update<br/>
+sudo apt install python3-pip python3-venv git -y<br/>
+git clone <your-repo-url>   # or copy files manually<br/>
+cd <project-directory><br/>
 
-python3 -m venv venv
-source venv/bin/activate
-pip install requests Pillow RPi.GPIO spidev
+python3 -m venv venv<br/>
+source venv/bin/activate<br/>
+pip install requests Pillow RPi.GPIO spidev<br/>
 
 ### 3. Configure secrets
-secrets.py
+secrets.py<br/>
 
-Wi‑Fi credentials (for the Pi to connect to your network)
-SSID = "YourWiFiName"
-PASSWORD = "YourWiFiPassword"
+Wi‑Fi credentials (for the Pi to connect to your network)<br/>
+SSID = "YourWiFiName"<br/>
+PASSWORD = "YourWiFiPassword"<br/>
 
-OpenWeatherMap
-OPENWEATHER_API_KEY = "your_openweather_api_key"
-COUNTRY = "DE"          # e.g., "US", "GB", "FR"
-CITY = "Berlin"         # city name (English)
+OpenWeatherMap<br/>
+OPENWEATHER_API_KEY = "your_openweather_api_key"<br/>
+COUNTRY = "DE"          # e.g., "US", "GB", "FR"<br/>
+CITY = "Berlin"         # city name (English)<br/>
 
-Yahoo Finance API (apidojo)
-YAHOO_API_KEY = "your_yahoo_api_key"
+Yahoo Finance API (apidojo)<br/>
+YAHOO_API_KEY = "your_yahoo_api_key"<br/>
 
 
-### 4. Configure stock symbols
-symbols = ["ALWN.AT", "EYDAP.AT", "ETE.AT", "AETF.AT", "PPC.AT", "4UBQ.DE"]
+### 4. Configure stock symbols<br/>
+symbols = ["ALWN.AT", "EYDAP.AT", "ETE.AT", "AETF.AT", "PPC.AT", "4UBQ.DE"]<br/>
 
 ### 5. Run the display
-**Step 1: Create the service file**
+**Step 1: Create the service file**<br/>
 
-bash
-sudo nano /etc/systemd/system/epaper-display.service
+bash<br/>
+sudo nano /etc/systemd/system/epaper-display.service<br/>
 
 **Step 2: Add the service configuration**
 
@@ -104,12 +104,13 @@ The Restart=always ensures your script restarts if it crashes
 
 **Step 3: Enable and start the service**
 
-bash
-sudo systemctl daemon-reload
-sudo systemctl enable epaper-display.service
-sudo systemctl start epaper-display.service
+bash<br/>
+sudo systemctl daemon-reload<br/>
+sudo systemctl enable epaper-display.service<br/>
+sudo systemctl start epaper-display.service<br/>
 
 For enclosure you may use the following: https://www.thingiverse.com/thing:7327540
+
 
 ### License
 ### This project is for personal/educational use. API keys must be obtained from their respective providers and used according to their terms.
