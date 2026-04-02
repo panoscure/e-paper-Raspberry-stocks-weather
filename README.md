@@ -109,7 +109,7 @@ sudo systemctl daemon-reload<br/>
 sudo systemctl enable epaper-display.service<br/>
 sudo systemctl start epaper-display.service<br/>
 
-For enclosure you may use the following: https://www.thingiverse.com/thing:7327540
+**For enclosure you may use the following: https://www.thingiverse.com/thing:7327540**<br/>
 
 
 ### License
