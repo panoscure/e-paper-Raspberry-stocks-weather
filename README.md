@@ -108,6 +108,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable epaper-display.service
 sudo systemctl start epaper-display.service
 
+For enclosure you may use the following: https://www.thingiverse.com/thing:7327540
+
 License
 This project is for personal/educational use. API keys must be obtained from their respective providers and used according to their terms.
 
