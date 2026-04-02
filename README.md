@@ -111,8 +111,7 @@ sudo systemctl start epaper-display.service
 License
 This project is for personal/educational use. API keys must be obtained from their respective providers and used according to their terms.
 
-![gmail_images20260402_124350](https://github.com/user-attachments/assets/c26cd1a7-e1e4-4cc1-b1b6-b68ce52e2105)
-![gmail_images20260402_124231](https://github.com/user-attachments/assets/037e018e-3808-4cfc-8253-8937263cd73c)
-![gmail_images20260402_124204](https://github.com/user-attachments/assets/455fe00c-b3af-41e7-a217-23d3307f9622)
+
+![gmail_images20260402_124204](https://github.com/user-attachments/assets/29ea4951-4e49-4231-a419-571331590b0a)
 
 
