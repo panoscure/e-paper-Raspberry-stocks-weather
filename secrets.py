@@ -1,8 +1,8 @@
-WIFI_SSID = "ssid" 
-WIFI_PASSWORD = "password" 
-OWM_API_KEY = "your api key" 
+WIFI_SSID = "" 
+WIFI_PASSWORD = "" 
+OWM_API_KEY = "" 
 CITY = "Chalandri" 
 COUNTRY = "Greece"
-EODHD_API_TOKEN = "N/A"
-YAHOO_API_KEY="Your yahoo Key"
+EODHD_API_TOKEN = ""
+YAHOO_API_KEY=""
 
