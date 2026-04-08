@@ -101,10 +101,10 @@ def main():
                 print("pressure:", pressure)
 
             # Fetch stocks during trading hours
-            if(hour):
-            #if (hour == 10 and minute >= 30) or (11 <= hour <= 17) or (hour == 18 and minute == 0):
-                #stocks = client.fetch_stocks(symbols)
-                stocks = client.yahoo_fetch_stocks(symbols)
+            #if(hour):
+            if (hour == 10 and minute >= 30) or (11 <= hour <= 17) or (hour == 18 and minute == 0):
+                stocks = client.fetch_stocks(symbols)
+                #stocks = client.yahoo_fetch_stocks(symbols)
                 if stocks:
                     last_stocks = stocks
                     codes = stocks["codes"]
