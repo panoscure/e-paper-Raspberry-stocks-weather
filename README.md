@@ -67,8 +67,8 @@ OPENWEATHER_API_KEY = "your_openweather_api_key"<br/>
 COUNTRY = "DE"          # e.g., "US", "GB", "FR"<br/>
 CITY = "Berlin"         # city name (English)<br/>
 
-Yahoo Finance API (apidojo)<br/>
-YAHOO_API_KEY = "your_yahoo_api_key"<br/>
+EOD API <br/>
+EODHD_API_TOKEN = "your_EOD_api_key"<br/>
 
 
 ### 4. Configure stock symbols<br/>
