@@ -28,7 +28,7 @@ This project uses two free APIs:<br/>
 | API | Purpose | Sign‑up link |
 | --- | --- | --- |
 | OpenWeatherMap | Current weather | [https://openweathermap.org/](https://openweathermap.org/) |
-| EOD Api | Stock prices | [Documentation]([https://apidojo.net/documentations/yahoo#tag/](https://eodhd.com/) |
+| EOD Api | Stock prices | (https://eodhd.com/) |
 
 Both offer free tiers sufficient for personal use (update every 15 minutes).
 
